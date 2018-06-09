@@ -17,13 +17,13 @@
     </head>
 
     <body class="text-center">
-        <form class="form-signin">
+        <form class="form-signin" action="openSesion.php" method="post">
             <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
             <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
             <label class="sr-only">Name</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Name" required autofocus>
+            <input id="inputEmail" name="user" class="form-control" placeholder="Name" required autofocus>
             <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             
         </form>

@@ -28,7 +28,11 @@ class dataSource {
 
     private function getConection() {
         $this->connection = mysqli_connect("p:{$this->host}", $this->user, $this->pass, $this->dataBase, $this->port);
-       
+       if($this->connection){
+           echo 'hola';
+       } else {
+           echo 'vay';
+       }
     }
 
     public function query($sql) {

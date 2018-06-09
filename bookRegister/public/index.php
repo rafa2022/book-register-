@@ -10,6 +10,9 @@
     </head>
     <body>
         <div class="logi">
+           
+           <a href="login.php">login</a>
+           
             <form>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
